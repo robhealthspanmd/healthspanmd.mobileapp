@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="healthspanmd.mobileapp.Tracker">
+
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Health Tracker" FontSize="Large" />
+
+        <Entry x:Name="weightEntry" Placeholder="Weight (kg)" />
+        <Entry x:Name="bloodPressureEntry" Placeholder="Blood Pressure (mm Hg)" />
+        <Entry x:Name="exerciseMinutesEntry" Placeholder="Minutes of Exercise" />
+
+        <Button Text="Save Data" Clicked="OnSaveDataClicked"/>
+    </StackLayout>
+</ContentPage>
