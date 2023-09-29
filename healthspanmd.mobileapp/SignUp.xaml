@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="healthspanmd.mobileapp.Page1">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Sign Up" FontSize="Large" />
+
+            <Entry x:Name="fName" Placeholder="First Name:" />
+            <Entry x:Name="lName" Placeholder="Last Name:" />
+            <Entry x:Name="lName" Placeholder="Email:" />
+            <Entry x:Name="username" Placeholder="Username:" />
+            <Entry x:Name="password" Placeholder="Password:" />
+
+            <Button Text="Sign Up" Clicked="signUpClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
