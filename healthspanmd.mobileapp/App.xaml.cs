@@ -11,6 +11,8 @@ namespace healthspanmd.mobileapp
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
+
+            MainPage = new NavigationPage(new VideoLibraryPage());
         }
 
         protected override void OnStart()
