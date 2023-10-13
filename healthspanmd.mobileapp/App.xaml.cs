@@ -10,7 +10,8 @@ namespace healthspanmd.mobileapp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new FlyoutPage();
         }
 
         protected override void OnStart()

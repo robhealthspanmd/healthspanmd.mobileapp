@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace healthspanmd.mobileapp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SignUp : ContentPage
+    public partial class FlyoutPage1Detail : ContentPage
     {
-        public SignUp()
+        public FlyoutPage1Detail()
         {
             InitializeComponent();
         }
