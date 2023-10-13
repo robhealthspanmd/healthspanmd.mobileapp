@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthspanmd.mobileapp.Andr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthspanmd.mobileapp.iOS", "healthspanmd.mobileapp.iOS\healthspanmd.mobileapp.iOS.csproj", "{552EE6F5-3FCF-4F9F-AF98-E63BC90F5F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthspanmd.mobileapp", "healthspanmd.mobileapp\healthspanmd.mobileapp.csproj", "{2518EA3C-841E-4E95-ACFC-58913798A4B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "healthspanmd.mobileapp", "healthspanmd.mobileapp\healthspanmd.mobileapp.csproj", "{2518EA3C-841E-4E95-ACFC-58913798A4B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
