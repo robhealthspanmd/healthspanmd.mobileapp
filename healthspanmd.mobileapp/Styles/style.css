@@ -1,0 +1,25 @@
+﻿body
+{
+}
+
+entry {
+    color: #4a4a4a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin: 10px 0px 10px 10px;
+}
+
+.title {
+    color: #4a4a4a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.signUpBtn {
+    background-color: #68A74F;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
