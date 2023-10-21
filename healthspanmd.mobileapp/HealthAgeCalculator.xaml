@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="healthspanmd.mobileapp.SignUp">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Entry Placeholder="Enter Age" Keyboard="Numeric" x:Name="AgeEntry" />
+            <Entry Placeholder="Enter Waist Circumference" Keyboard="Numeric" x:Name="WaistCircumferenceEntry" />
+            <Entry Placeholder="Enter Aerobic Physical Activity" Keyboard="Numeric" x:Name="AerobicActivityEntry" />
+            <Entry Placeholder="Enter Strength Training" Keyboard="Numeric" x:Name="StrengthTrainingEntry" />
+            <Entry Placeholder="Enter Body Fat Percentage" Keyboard="Numeric" x:Name="BodyFatPercentageEntry" />
+            <Entry Placeholder="Enter Nutrition Quality" Keyboard="Numeric" x:Name="NutritionQualityEntry" />
+            <Entry Placeholder="Enter Sleep" Keyboard="Numeric" x:Name="SleepEntry" />
+            <Entry Placeholder="Enter Non HDL Cholesterol" Keyboard="Numeric" x:Name="NonHDLCholesterolEntry" />
+            <Entry Placeholder="Enter Systolic Blood Pressure" Keyboard="Numeric" x:Name="SystolicBPEntry" />
+            <Entry Placeholder="Enter Diastolic Blood Pressure" Keyboard="Numeric" x:Name="DiastolicBPEntry" />
+            <Switch x:Name="SmokingSwitch" IsToggled="false" />
+            <Entry Placeholder="Enter Hemoglobin Alc" Keyboard="Numeric" x:Name="HemoglobinAlcEntry" />
+            <Button Text="Calculate" Clicked="CalculateButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
