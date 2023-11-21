@@ -18,7 +18,12 @@ namespace healthspanmd.mobileapp
 
 			var videoIds = new List<string>
 			{
-                "YplG2BiDc0M" //https://www.youtube.com/watch?v=YplG2BiDc0M
+                "YplG2BiDc0M", //https://www.youtube.com/watch?v=YplG2BiDc0M
+                "Kcj8Ms_3JbU", //https://www.youtube.com/watch?v=Kcj8Ms_3JbU
+                "wsKYHxxZS9w", //https://www.youtube.com/watch?v=wsKYHxxZS9w
+                "eNaRIe4-yVM", //https://www.youtube.com/watch?v=eNaRIe4-yVM
+                "yB_xdD4sGls", //https://www.youtube.com/watch?v=yB_xdD4sGls
+                "C0cVVE_5vzM" //https://www.youtube.com/watch?v=C0cVVE_5vzM
             };
 
             VideoList.ItemsSource = videoIds;
